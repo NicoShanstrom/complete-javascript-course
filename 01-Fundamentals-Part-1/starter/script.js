@@ -64,23 +64,58 @@
 
 // console.log(ageJenna, ageNico, avgAge);
 
-const firstName = 'Nico';
-const job = 'software developer';
-const birthYear = 1984;
-const year = 2037
-// older way to create a string annoying, in ES6 template literal makes it easier.
-const nico = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
-console.log(nico);
-// template literal, use backticks for template string
-const nicoNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(nicoNew);
+// const firstName = 'Nico';
+// const job = 'software developer';
+// const birthYear = 1984;
+// const year = 2037
+// // older way to create a string annoying, in ES6 template literal makes it easier.
+// const nico = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(nico);
+// // template literal, use backticks for template string
+// const nicoNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(nicoNew);
 
-// multiline line string old way before ES6
-console.log('String with \n\
-  multiple \n\
-  lines');
+// // multiline line string old way before ES6
+// console.log('String with \n\
+//   multiple \n\
+//   lines');
 
-// new in ES6 use multiline with backticks instead of the \n\ linebreaks 
-console.log(`String
-  multiple
-  lines`);
+// // new in ES6 use multiline with backticks instead of the \n\ linebreaks 
+// console.log(`String
+//   multiple
+//   lines`);
+
+// const age = 15;
+// // const isOldEnough = age >= 18;
+
+// if (age >= 18) {
+//   console.log('Sarah can start driving license 😎');
+// }
+// else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
+
+// const birthYear = 1984;
+
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear))
+console.log(Number(inputYear) + 18);
+
+// type coercion
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2');
+
+let n = '1' + 1
+n = n - 1;
+console.log(n);
