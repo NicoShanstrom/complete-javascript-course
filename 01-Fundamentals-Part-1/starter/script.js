@@ -106,16 +106,60 @@
 // }
 // console.log(century);
 
-// type conversion
-const inputYear = '1991';
-console.log(Number(inputYear))
-console.log(Number(inputYear) + 18);
+// // type conversion
+// const inputYear = '1991';
+// console.log(Number(inputYear))
+// console.log(Number(inputYear) + 18);
 
-// type coercion
-console.log('I am ' + 23 + ' years old');
-console.log('23' - '10' - 3);
-console.log('23' / '2');
+// // type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2');
 
-let n = '1' + 1
-n = n - 1;
-console.log(n);
+// let n = '1' + 1
+// n = n - 1;
+// console.log(n);
+
+// // 5 falsy values: 0, '', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Nico'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+// //so if money is truthy or if money is falsy based off of the above values or not
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all ;)")
+// } else {
+//   console.log('You should get a job!');
+// }
+
+// let height = 0;
+// if (height) {
+//   console.log('YAY! Height is defined');
+// } else {
+//   console.log('Height is UNDEFINED');
+// }
+
+// // equality operators
+// const age = 18;
+// if (age === 18) console.log('You just became an adult :)');
+
+// const favorite = Number(prompt("What's your favorite number?")); // 3
+
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if (favorite === 3) { // 3 === 3
+//   console.log('Cool! 3 is a great number!')
+// } else if (favorite === 7) {
+//   console.log('7 is also a cool number')
+// } else if (favorite === 7) {
+//   console.log('9 is also a cool number')
+// } else {
+//   console.log('Number is not 3 or 7 or 9')
+// }
+
+// if (favorite !== 3) console.log('Why not 3?');
+
